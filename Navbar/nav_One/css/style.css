@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --black-color: #000;
+    --white-color: #fff;
+    --salmon-color : #fa8072;
+}
+
+
+.navbar-nav .mynav-item .mynav-link {
+    color: var(--white-color);
+    margin: 12px;
+    z-index: 1;
+    font-weight:500;
+}
+.navbar-nav .mynav-item .mynav-link.active{
+    color: var(--salmon-color);
+    border-bottom: 2px solid var(--salmon-color);
+    width: fit-content;
+    margin: 12px;
+    font-weight:500;
+}
+.navbar-nav .mynav-item .mynav-link:hover{
+    color: var(--salmon-color);
+    border-bottom: 2px solid var(--salmon-color);
+    width: fit-content;
+    margin: 12px;
+    font-weight:500;
+}
+.my-navbar-toggler{
+    color: var(--white-color);
+    margin: 12px;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+}
+.button-style{
+    background-color: var(--black-color);
+    opacity: 0.8;
+    color: var(--white-color) !important;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 2px;
+    
+}
+
+.hero-img{
+    background-image: url("../assest/ai-generated-8596064_1280.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
